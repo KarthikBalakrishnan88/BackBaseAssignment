@@ -19,7 +19,7 @@ I should be able to use the sample application
       | Create this computer | button     |                     | 
       | Cancel               | link       |                     | 
   
-  @Regression1
+  @Regression
   Scenario Outline: Verify that I should be able to add a computer with valid data
     Given I am on the "Add a computer" page 
      When I enter computer name as "<Computer_name>"

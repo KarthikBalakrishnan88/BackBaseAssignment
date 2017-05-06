@@ -34,7 +34,7 @@ public class EditPageSteps {
 
 			computer_name = computer_name + name.randomIdentifier();
 		}
-		addPage.inputBox_computerName_type(computerName);
+		addPage.inputBox_computerName_type(computer_name);
 	}
 
 	@When("^I click on Save this computer button$")
